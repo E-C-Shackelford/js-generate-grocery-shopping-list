@@ -41,4 +41,11 @@ var deleteDuplicates = function (list) {
 // create a new variable, assign it to a call to the deleteDuplicates function, and pass the groceries array as an argument
 var newGroceries = deleteDuplicates(groceries);
 console.log(newGroceries.length);
-// only pushing elements to the empty array that it doesn’t already contain, so the length of the new array will be shorter than the origial array
+// only pushing elements to the empty array that it doesn’t already contain, so the length of the new array will be shorter than the original array
+
+// *****  create a numbered list of the grocery items  *****
+
+// loop through the newGroceries array to find the element and the index of each element
+newGroceries.forEach(function (item, index) {
+  console.log(`${index + 1} — ${item}`);
+});
