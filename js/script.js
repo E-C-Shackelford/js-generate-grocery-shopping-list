@@ -23,3 +23,15 @@ var groceries = [
   "kale",
 ];
 console.log(groceries.length);
+
+var deleteDuplicates = function (list) {
+  // this empty cleanList array will hold the unique items from your groceries list
+  var cleanList = [];
+  for (var item of list) {
+    // if the cleanList array doesn't inlcude the item, add an element to the end of the array
+    if (!cleanList.includes(item)) {
+      cleanList.push(item);
+    }
+  }
+  return cleanList;
+};
