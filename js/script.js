@@ -1,1 +1,25 @@
-
+// *****  remove duplicate items from a grocery list and generate a numbered list of grocery items  *****
+var groceries = [
+  "coconut milk",
+  "hemp milk",
+  "matcha",
+  "kiwi",
+  "mango",
+  "almond yogurt",
+  "oats",
+  "limes",
+  "ginger",
+  "quinoa",
+  "hemp milk",
+  "mango",
+  "berries",
+  "peaches",
+  "pears",
+  "cinnamon",
+  "matcha",
+  "pineapple",
+  "lettuce",
+  "carrots",
+  "kale",
+];
+console.log(groceries.length);
