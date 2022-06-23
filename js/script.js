@@ -35,3 +35,10 @@ var deleteDuplicates = function (list) {
   }
   return cleanList;
 };
+
+// *****  check the length of the new array  *****
+
+// create a new variable, assign it to a call to the deleteDuplicates function, and pass the groceries array as an argument
+var newGroceries = deleteDuplicates(groceries);
+console.log(newGroceries.length);
+// only pushing elements to the empty array that it doesn’t already contain, so the length of the new array will be shorter than the origial array
